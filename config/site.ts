@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "BAbalous",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "منتجاتنا مصنوعة من أجود أنواع الفواكه الطازجة، لنقدم لك تجربة صحية فريدة ولذيذة.",
   mainNav: [
     {
       title: "Home",
