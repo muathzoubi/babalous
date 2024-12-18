@@ -15,10 +15,10 @@ export default function Home() {
 
   return (
     <div className={`${cairo.className} rtl`}>
-      <header className="bg-emerald-600 text-white py-4 shadow-md">
+      <header className="bg-green-500 text-white py-4 shadow-md">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
-            <h1 className="flex  flex-row font-bold"> <span> <Hop /></span>            </h1>
+            <h1 className="flex  flex-row font-bold"> <span> <img src='/bsb-logo-2.png'  className='w-30 h-10 ' alt='logo'/></span>            </h1>
                         <button
               className="lg:hidden"
               onClick={toggleMenu}
@@ -41,7 +41,7 @@ export default function Home() {
 
       <main>
 
-        <section className="bg-gradient-to-b from-emerald-500 to-blue-600 text-white py-16 md:py-24">
+        <section className="bg-gradient-to-b from-green-500 to-blue-600 text-white py-16 md:py-24">
 
           <div className="container mx-auto px-4 text-center z-10">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">اكتشف طعم الصحة الحقيقي</h2>
@@ -139,7 +139,7 @@ export default function Home() {
               </div>
               <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg">
                 <p className="mb-6 text-gray-600">"طعم رائع وجودة عالية. أنا سعيد جدًا بأنني اكتشفت هذه المنتجات! أصبحت جزءًا أساسيًا من نظامي الغذائي اليومي."</p>
-                <p className="font-semibold">- سارة أحمد</p>
+                <p className="font-semibold">ام الشذب - سارة أحمد</p>
               </div>
               <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg">
                 <p className="mb-6 text-gray-600">"أطفالي يحبون هذه المنتجات، وأنا سعيدة لأنها صحية وطبيعية. طريقة رائعة لجعلهم يتناولون الفواكه بشكل منتظم."</p>
@@ -188,7 +188,7 @@ export default function Home() {
             </div>
             <div>
               <h5 className="text-xl font-semibold mb-4">تواصل معنا</h5>
-              <p className="text-emerald-200 mb-2">البريد الإلكتروني: info@fakehati.com</p>
+              <p className="text-emerald-200 mb-2">البريد الإلكتروني: info@babalous.com</p>
               <p className="text-emerald-200 mb-2">الهاتف: 123-456-7890</p>
               <div className="flex space-x-4 mt-4">
                 <a href="#" className="text-emerald-200 hover:text-white transition duration-300">
@@ -213,7 +213,8 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-emerald-700 text-center">
-            <p className="text-emerald-200">&copy; 2025 فاكهتي الصحية. جميع الحقوق محفوظة.</p>
+            <p className="text-emerald-200">   جميع الحقوق محفوظة  -  BAbalous &copy; 2025</p>
+            <span>برمجة وتصميم <a className='text-blue-300' href='https://muathalzoubi.netlify.app/'>Muath A. Alzoubi</a></span>
           </div>
         </div>
       </footer>
